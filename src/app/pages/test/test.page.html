@@ -1,0 +1,13 @@
+<ion-header slot="start">
+  <ion-toolbar color="primary">
+    <ion-title>Test Ionic Modal</ion-title>
+    <ion-buttons slot="start">
+      <ion-menu-button autoHide="true"></ion-menu-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+<ion-content [fullscreen]="true" class="ion-padding">
+  <h1>This is the main page.</h1>
+  <ion-button (click)="openModal()">Open Modal</ion-button> 
+  <p *ngIf="dataReturned">{{dataReturned}}</p>
+</ion-content>
