@@ -22,7 +22,7 @@ When the user presses the "Open Modal" button, the main window launches the moda
       componentProps: { ticketholders: listProps},
     });
 ``` 
-Notice that the json array is not passed directly. It is wrapped in a json object with one property, "ticketholders".
+The json array is passed in "componentProps". Notice that the json array is not passed in componentProps directly. It is wrapped in a json object with one property, "ticketholders".
 
 The modal window (/src/pages/modal) opens and populated with the json array of data ( see the "@Input" declaration).
 ``` javascript
