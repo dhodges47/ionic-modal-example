@@ -1,5 +1,7 @@
 # ionic-modal-example
-Shows how to implement a modal window in Ionic (Angular), passing a json array
+Shows how to implement a modal window in Ionic (Angular), passing a json array.
+
+The key code for this example is here: Main window: /src/pages/test. Modal window: /src/pages/modal.
 
 Why I created this example: 
 
