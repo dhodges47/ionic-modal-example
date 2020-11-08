@@ -13,8 +13,7 @@ import {ModalProperties} from '../../interfaces/modalProperties';
 })
 export class ModalPage implements OnInit {
  
-  public modalProperties: ModalProperties;
-  public listProps: Array<ModalProperties>;
+ 
   @Input('ticketholders') ticketholders: ModalProperties // the main page sends an array of search results through this variable
 
   constructor(public modalController: ModalController) { }
